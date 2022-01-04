@@ -1,0 +1,33 @@
+body{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+   .registrationForm{
+    width: 600px;   
+    height:700px;
+    background:linear-gradient(to right,rgb(152, 243, 255),rgb(0, 102, 255));
+    border-radius: 10px;
+  } 
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
+  .regLogo{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  .form-label{
+    color: black;
+  }
+
+  
