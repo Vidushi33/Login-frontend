@@ -36,7 +36,7 @@ function Register() {
       alert("Password and confirm password should be same");
     } else {
       const response = await axios.post(
-        "https://login-backend-1.herokuapp.com/register",
+        "https://localhost:4000/register",
         userData
       );
       // console.log(response.data.message);
