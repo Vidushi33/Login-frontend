@@ -40,7 +40,7 @@ function Login() {
     }).then(() => {
       window.location = "";
     });
-    setMailId("");
+    setEmail("");
     setPassword("");
   }
 
