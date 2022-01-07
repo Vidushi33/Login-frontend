@@ -87,7 +87,7 @@ function Register() {
                   <Form.Control
                     type="email"
                     placeholder="Enter email"
-                    value={mailId}
+                    value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     style={{ border: "1.5px solid black" }}
                   />
