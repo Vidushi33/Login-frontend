@@ -25,7 +25,7 @@ function Register() {
     const userData = {
       firstName: firstName,
       lastName: lastName,
-      email: mailId,
+      email: email,
       phoneNo: phoneNo,
       address: houseNo + " " + streetName + " " + city + " " + pincode,
       password: password,
