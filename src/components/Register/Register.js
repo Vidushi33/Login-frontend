@@ -12,7 +12,7 @@ import swal from "sweetalert";
 function Register() {
   const [firstName, setfirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [mailId, setMailId] = useState("");
+  const [email, setEmail] = useState("");
   const [phoneNo, setPhoneNo] = useState("");
   const [houseNo, setHouseNo] = useState("");
   const [streetName, setStreetName] = useState("");
@@ -25,7 +25,7 @@ function Register() {
     const userData = {
       firstName: firstName,
       lastName: lastName,
-      mailId: mailId,
+      email: mailId,
       phoneNo: phoneNo,
       address: houseNo + " " + streetName + " " + city + " " + pincode,
       password: password,
@@ -88,7 +88,7 @@ function Register() {
                     type="email"
                     placeholder="Enter email"
                     value={mailId}
-                    onChange={(e) => setMailId(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                     style={{ border: "1.5px solid black" }}
                   />
                 </Col>
