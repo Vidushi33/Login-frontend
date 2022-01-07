@@ -10,12 +10,12 @@ import axios from "axios";
 import swal from "sweetalert";
 
 function Login() {
-  const [mailId, setMailId] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   async function submit() {
     const userData = {
-      email: mailId,
+      email: email,
       password: password,
     };
 
@@ -62,8 +62,8 @@ function Login() {
                     <Form.Control
                       type="email"
                       placeholder="Enter email"
-                      value={mailId}
-                      onChange={(e) => setMailId(e.target.value)}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       style={{
                         width: "80%",
                         border: "1.5px solid black",
