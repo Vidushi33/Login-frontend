@@ -182,7 +182,7 @@ function Register() {
                   className="mt-4 p-2"
                   style={{
                     borderRadius: "10px",
-                    width: "20%",
+                    width: "200px",
                     fontSize: "18px",
                   }}
                     onClick={submit}
