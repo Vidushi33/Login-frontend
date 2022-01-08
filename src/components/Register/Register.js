@@ -118,7 +118,7 @@ function Register() {
                 </Col>
 
                 <Col>
-                  <Form.Label>Locality/Street Name</Form.Label>
+                  <Form.Label>Locality</Form.Label>
                   <Form.Control
                     type="text"
                     placeholder="Enter Street Name"
