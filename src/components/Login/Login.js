@@ -21,6 +21,7 @@ function Login() {
 
     console.log(userData);
     const response = await axios.post("https://login-backend-form.herokuapp.com/login", userData);
+    console.log(response);
     if (response.data.token) {
       let credentials = [
         response.data.token,
@@ -38,7 +39,7 @@ function Login() {
       icon: `success`,
       button: "Okay!",
     }).then(() => {
-      window.location = "";
+      // window.location = "";
     });
     setEmail("");
     setPassword("");
